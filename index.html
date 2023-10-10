@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veeres</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/4092889ad4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="img/Veeres_Logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Fullstack developer</p>
+                <h1>Hi, I'am <span>Veeres </span><br> From Srilanka</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ..........about.......... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/veeres6.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm a flexible and motivated individual, who is willing to contribute my maximum while 
+learning new technologies. I am willing to learn and take on additional responsibilities throughout my career.
+                    </p>
+                    <div class="tap-titles">
+                        <p class="tap-links active-link" onclick="opentap('skills')">Skills</p>
+                        <p class="tap-links" onclick="opentap('experience')">Experience</p>
+                        <p class="tap-links" onclick="opentap('education')">Education</p>
+                    </div>
+                    <div class="tap-contents active-tap" id="skills">
+                        <ul>
+                            <li><span>FrontEnd/BackEnd</span><br>Web Development</li>
+                            <li><span>Data Science</span><br>Data Scientist</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tap-contents" id="experience">
+                        <ul>
+                            <li><span>2017-2018</span><br>sale executive-WorldNetServices,Jaffna</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tap-contents" id="education">
+                        <ul>
+                            <li><span>2020-Current</span><br>Undergrauate-University Of Kelaniya</li>
+                            <li><span>2009-2018</span><br>Nelliady Central Collage</li>
+                            <li><span>2004-2009</span><br>Maniyakaram Thoddam A.T.S</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...........services......... -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>FrontEnd- ReactJs,Angular<br>BackEnd-SpringBoot,NoteJS</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Data Scientist</h2>
+                    <p>Data analyze </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Building Android/iOS apps</h2>
+                    <p>Building Android/iOS apps used to </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...............portfolio.............. -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media Web</h3>
+                    <p>Develop social media website</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>Data Analyze </h3>
+                    <p>Analyze the data</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work3.jpg" alt="">
+                <div class="layer">
+                    <h3>Online shopping app</h3>
+                    <p>Online shopping used this </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-- .................contact............... -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>veeresvarans@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+94764646712</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/Veeresvaran_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script>
+
+        var taplinks = document.getElementsByClassName('taplinks');
+        var tapcontents = document.getElementsByClassName('tap-contents');
+        function opentap(tapname){
+            for(taplink of taplinks){
+                taplink.classList.remove("active-link")
+            }
+            for(tapcontent of tapcontents){
+                tapcontent.classList.remove("active-tap")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tapname).classList.add("active-tap")
+        }
+    </script>
+</body>
+</html>
